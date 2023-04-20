@@ -1,0 +1,35 @@
+.frm_modal{
+    /* background: red; */
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    height: 100vh;
+}
+
+.frm_wrap{
+    height: 20%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: #dbd4d0;
+    width: 430px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+small{
+    color: red;
+}
+
+.hadDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fild{
+    width: 60%;
+    height:30px ;
+    margin-left:5px ;
+    border-radius: 2px;
+    border: 1px solid blcak;
+    outline: none;
+}

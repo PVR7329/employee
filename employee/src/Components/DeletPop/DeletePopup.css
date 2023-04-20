@@ -1,0 +1,15 @@
+.delmodal{
+    background: #9b9491;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.btn_wrap{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,97 @@
+.tbl_wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tblheading_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.tblhading {
+    width: 30%;
+    background-color: #689985;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+table{
+    width: 30%;
+    background: #e7e2e2;
+}
+
+
+
+.tbl_scroll thead th {
+    background: gray;
+
+}
+
+.tbl_scroll thead tr th {
+    width: 30%;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+
+.tbl_scroll thead tr th,
+.tbl_scroll tbody tr td {
+    padding: 10px;
+}
+
+
+.tbl_scroll thead th:nth-child(1),
+.tbl_scroll tbody td:nth-child(1) {
+    text-align: center;
+    width: 20%;
+}
+
+.tbl_scroll tbody tr:hover {
+    background: #ada9a9;
+}
+
+.tbl_scroll .tblth span {
+    cursor: pointer;
+}
+
+.tbl_scroll .caret {
+    position: relative;
+    transition: 0.3s all;
+    visibility: hidden;
+}
+
+.tbl_scroll .tblth:hover .caret {
+    visibility: visible;
+}
+
+.tbl_scroll .caret.up {
+    visibility: visible;
+}
+
+.tblhading {
+    display: flex;
+}
+
+.tbl_scroll {
+    position: sticky;
+    height: 260px;
+    overflow-x: auto;
+}
+
+.action{
+    width: 25%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 3px;
+}
